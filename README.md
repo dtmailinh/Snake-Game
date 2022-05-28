@@ -2,8 +2,9 @@
 1. Hướng dẫn cài đặt
   - Bước 1: Vào phần Code -> chọn Download ZIP
   ![image](https://user-images.githubusercontent.com/100121918/170411891-89d1bd72-830e-45a8-963d-9d2b3df0222d.png)
-  - Bước 2: Giải nén file ZIP -> tìm file "Snake.sln" và mở lên ![image](https://user-images.githubusercontent.com/100121918/170412376-8e73f2af-5b6b-4f88-92b1-96fb4e5cec8e.png)
-  - Bước 3: 
+  - Bước 2: Giải nén file ZIP -> tìm file Snake.exe trong folder x64/Release và chạy lên ![image](https://user-images.githubusercontent.com/100121918/170807682-8647dc0b-d230-4814-a567-ba2671ba71f0.png)
+
+  - Bước 3: Trải nghiệm game
 
 2. Mô tả chung:
 - Ý tưởng: giống game rắn cổ điển 

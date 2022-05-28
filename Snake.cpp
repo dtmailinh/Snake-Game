@@ -525,19 +525,19 @@ int main(int argc, char* argv[]) {
 			temp = mushroomPos.second;
 				mushroomposY.push_back(temp);
 			countmushroom++;
-			for (int i = 0; i < countmushroom; i++) cerr << mushroomposX[i] << " " << mushroomposY[i] << " // ";
-			cout << endl;
+			//for (int i = 0; i < countmushroom; i++) cerr << mushroomposX[i] << " " << mushroomposY[i] << " // ";cout << endl;
 		}
 		for (int i = 0; i < countmushroom; i++)
 		{
 			if (checkEatmushroom(mushroomposX[i], mushroomposY[i], x, y))
 			{
+				cout << "Snake has eaten a mushroom!" << endl;
 				Mix_PlayChannel(-1, eatmushroomsound, 0);
 				updatesnakelength(bodyLength, bodyX, bodyY);
 				if (bodyLength >= 3) bodyLength -= 3;
 				else bodyLength = 0;
 				updatemushroom(mushroomposX, mushroomposY, i, countmushroom);
-				for (int i = 0; i < countmushroom; i++) cerr << mushroomposX[i] << " " << mushroomposY[i] << " ** "; cout << endl;
+				//for (int i = 0; i < countmushroom; i++) cerr << mushroomposX[i] << " " << mushroomposY[i] << " ** "; cout << endl;
 				break;
 			}
 		}

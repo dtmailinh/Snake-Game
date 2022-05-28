@@ -1,3 +1,4 @@
 ﻿  Snake.cpp
-C:\Users\Admin\source\repos\Snake\Snake.cpp(280,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Admin\source\repos\Snake\Snake.cpp(302,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Admin\source\repos\Snake\Snake.cpp(510,17): warning C4018: '<': signed/unsigned mismatch
   Snake.vcxproj -> C:\Users\Admin\source\repos\Snake\x64\Debug\Snake.exe

@@ -6,7 +6,9 @@
 **1. Hướng dẫn cài đặt (trên Visual Studio)**
   - __Bước 1:__ Vào phần Code -> chọn Download ZIP
   ![image](https://user-images.githubusercontent.com/100121918/170812450-ccab6c04-b593-4ff4-b430-a43a938efb96.png)
-  - __Bước 2:__ Giải nén file ZIP -> tìm và mở file Snake.sln ![image](https://user-images.githubusercontent.com/100121918/171084478-fa9a93bd-583f-4ff3-8e1f-655f5e9c5434.png)
+  - __Bước 2:__ Giải nén file ZIP 
+    + Để thư mục LibSdl2 cùng cấp với Snake.sln
+    + Tìm và mở file Snake.sln ![image](https://user-images.githubusercontent.com/100121918/171218184-c9ff04d8-a183-4b37-bb90-ca7b25b34f23.png)
 
   - __Bước 3:__ Vào Project -> Snake properties
     + Trong VC++Directories/Include Directories -> chọn edit và thêm lần lượt từng đường dẫn sau:
